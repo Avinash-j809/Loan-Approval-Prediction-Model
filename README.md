@@ -13,15 +13,21 @@ Target variable: Loan_Status.
 # Approach
 
 • Data cleaning and missing value treatment
+
 • Exploratory data analysis
+
 • Categorical feature encoding
+
 • Train test split
+
 • Model training and evaluation
 
 # Models Used
 
 • Logistic Regression
+
 • Decision Tree
+
 • Random Forest
 
 # Evaluation
@@ -32,10 +38,15 @@ Random Forest performed best. Credit history emerged as the strongest approval d
 # Tech Stack
 
 • Python
+ 
 • Pandas
+
 • NumPy
+
 • Scikit learn
+
 • Matplotlib
+
 • Seaborn
 
 # How to Run
@@ -49,6 +60,9 @@ Open the notebook in Jupyter
 # Future Improvements
 
 • Hyperparameter tuning
+
 • Cross validation
+
 • Model deployment
+
 • Integration with a credit risk scoring framework
