@@ -1,16 +1,16 @@
-#Loan Approval Prediction using Machine Learning
+# Loan Approval Prediction using Machine Learning
 
-#Overview
+# Overview
 This project builds a classification model to predict loan approval based on applicant financial and demographic data. The goal is to support structured credit decision making using machine learning.
 
-Business Context
+# Business Context
 Banks must assess loan applications while managing risk. A predictive model helps standardize approvals and reduce manual bias.
 
-Dataset
+# Dataset
 The dataset contains applicant details such as income, loan amount, credit history, education, employment status, and property area.
 Target variable: Loan_Status.
 
-Approach
+# Approach
 
 • Data cleaning and missing value treatment
 • Exploratory data analysis
@@ -18,18 +18,18 @@ Approach
 • Train test split
 • Model training and evaluation
 
-Models Used
+# Models Used
 
 • Logistic Regression
 • Decision Tree
 • Random Forest
 
-Evaluation
+# Evaluation
 
 Models were compared using accuracy and confusion matrix metrics.
 Random Forest performed best. Credit history emerged as the strongest approval driver.
 
-Tech Stack
+# Tech Stack
 
 • Python
 • Pandas
@@ -38,7 +38,7 @@ Tech Stack
 • Matplotlib
 • Seaborn
 
-How to Run
+# How to Run
 
 Clone the repository
 
@@ -46,7 +46,7 @@ Install dependencies using pip install -r requirements.txt
 
 Open the notebook in Jupyter
 
-Future Improvements
+# Future Improvements
 
 • Hyperparameter tuning
 • Cross validation
